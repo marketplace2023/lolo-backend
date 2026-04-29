@@ -1,0 +1,857 @@
+[
+  {
+    "id": "ab3efcea-964f-4c34-b424-6f5f35e2e76a",
+    "codigo": "001",
+    "descripcion": "POZO PROFUNDO EN EL CENTRO",
+    "numeroContrato": "ALC-2026",
+    "calculista": "ING ORALIS",
+    "revisor": "LUIS",
+    "propietario": "CONTRUCTORA",
+    "fechaPresupuesto": "2026-04-14",
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bol�vares"
+    },
+    "aplicaImpuesto": true,
+    "porcentajeImpuesto": 12.0,
+    "utilidadIncluyeImpuesto": true,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 0.0,
+      "presocialBase2": 0.0,
+      "bono1": 0.0,
+      "bono2": 0.0,
+      "bono3": 0.0,
+      "limite1": 300.0,
+      "limite2": 0.0,
+      "limite3": 0.0
+    },
+    "costoIndirecto": {
+      "administracion": 15.0,
+      "utilidad": 10.0,
+      "financiamiento": 0.0,
+      "transporte": 0.0,
+      "titAdm": "% Administraci�n:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [
+      {
+        "descripcion": "% Anticipo",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Laboral",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Fiel Cumplimiento",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      }
+    ],
+    "horasPorDia": 8,
+    "gastosMedicos": false,
+    "status": "N",
+    "fechaCronograma": null,
+    "finesDeSemanaTrabajo": "SD",
+    "_codigoOriginal": "001"
+  },
+  {
+    "id": "61755a32-2b69-477b-881e-62a7ea4bc136",
+    "codigo": "CORPOEP",
+    "descripcion": "Presupuesto CORPOEP",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": null,
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bolivares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": false,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 0
+    },
+    "costoIndirecto": {
+      "administracion": 0,
+      "utilidad": 0,
+      "financiamiento": 0,
+      "transporte": 0,
+      "titAdm": "% Administracion:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [],
+    "horasPorDia": 8,
+    "status": "N",
+    "_codigoOriginal": "CORPOEP",
+    "_esStub": true
+  },
+  {
+    "id": "3b9590b3-f659-4508-b9bf-88eb3032c958",
+    "codigo": "CORPOLEC",
+    "descripcion": "Presupuesto CORPOLEC",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": null,
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bolivares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": false,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 0
+    },
+    "costoIndirecto": {
+      "administracion": 0,
+      "utilidad": 0,
+      "financiamiento": 0,
+      "transporte": 0,
+      "titAdm": "% Administracion:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [],
+    "horasPorDia": 8,
+    "status": "N",
+    "_codigoOriginal": "CORPOLEC",
+    "_esStub": true
+  },
+  {
+    "id": "e55fc627-6bf4-4988-b2b8-aefdd7029861",
+    "codigo": "EDIFICAC",
+    "descripcion": "Gu�a 1 - Edificaciones",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": "2015-02-01",
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bol�vares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": true,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 405.71,
+      "presocialBase2": 0.0,
+      "bono1": 0.0,
+      "bono2": 0.0,
+      "bono3": 0.0,
+      "limite1": 300.0,
+      "limite2": 0.0,
+      "limite3": 0.0
+    },
+    "costoIndirecto": {
+      "administracion": 0.0,
+      "utilidad": 0.0,
+      "financiamiento": 0.0,
+      "transporte": 0.0,
+      "titAdm": "% Administraci�n:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [
+      {
+        "descripcion": "% Anticipo",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Laboral",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Fiel Cumplimiento",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      }
+    ],
+    "horasPorDia": 8,
+    "gastosMedicos": false,
+    "status": "S",
+    "fechaCronograma": null,
+    "finesDeSemanaTrabajo": "SD",
+    "_codigoOriginal": "EDIFICAC"
+  },
+  {
+    "id": "9df6b002-b25a-4ba0-be44-09ea35ab0387",
+    "codigo": "ELECMECA",
+    "descripcion": "Gu�a 4 - Electromec�nica",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": "2015-02-01",
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bol�vares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": true,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 382.79,
+      "presocialBase2": 0.0,
+      "bono1": 0.0,
+      "bono2": 0.0,
+      "bono3": 0.0,
+      "limite1": 300.0,
+      "limite2": 0.0,
+      "limite3": 0.0
+    },
+    "costoIndirecto": {
+      "administracion": 0.0,
+      "utilidad": 0.0,
+      "financiamiento": 0.0,
+      "transporte": 0.0,
+      "titAdm": "% Administraci�n:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [
+      {
+        "descripcion": "% Anticipo",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Laboral",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Fiel Cumplimiento",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      }
+    ],
+    "horasPorDia": 8,
+    "gastosMedicos": false,
+    "status": "S",
+    "fechaCronograma": null,
+    "finesDeSemanaTrabajo": "SD",
+    "_codigoOriginal": "ELECMECA"
+  },
+  {
+    "id": "42d3d9ac-56eb-4938-8c0e-6be22da6cf0e",
+    "codigo": "ELECTRIF",
+    "descripcion": "Gu�a 6 - El�ctrica (Redes A�reas)",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": "2015-02-01",
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bol�vares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": true,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 397.88,
+      "presocialBase2": 0.0,
+      "bono1": 0.0,
+      "bono2": 0.0,
+      "bono3": 0.0,
+      "limite1": 300.0,
+      "limite2": 0.0,
+      "limite3": 0.0
+    },
+    "costoIndirecto": {
+      "administracion": 0.0,
+      "utilidad": 0.0,
+      "financiamiento": 0.0,
+      "transporte": 0.0,
+      "titAdm": "% Administraci�n:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [
+      {
+        "descripcion": "% Anticipo",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Laboral",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Fiel Cumplimiento",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      }
+    ],
+    "horasPorDia": 8,
+    "gastosMedicos": false,
+    "status": "S",
+    "fechaCronograma": null,
+    "finesDeSemanaTrabajo": "SD",
+    "_codigoOriginal": "ELECTRIF"
+  },
+  {
+    "id": "1b4d2103-188d-48ed-800f-2d1b965c2300",
+    "codigo": "LULO1",
+    "descripcion": "Presupuesto LULO1",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": null,
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bolivares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": false,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 0
+    },
+    "costoIndirecto": {
+      "administracion": 0,
+      "utilidad": 0,
+      "financiamiento": 0,
+      "transporte": 0,
+      "titAdm": "% Administracion:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [],
+    "horasPorDia": 8,
+    "status": "N",
+    "_codigoOriginal": "LULO1",
+    "_esStub": true
+  },
+  {
+    "id": "de733d35-9649-4741-adc2-b3441798fdd4",
+    "codigo": "PARTINS1",
+    "descripcion": "Partidas como insumo - Edificaciones - Urbanismo - Vialidad",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": "2015-02-01",
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bol�vares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": true,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 405.71,
+      "presocialBase2": 0.0,
+      "bono1": 0.0,
+      "bono2": 0.0,
+      "bono3": 0.0,
+      "limite1": 300.0,
+      "limite2": 0.0,
+      "limite3": 0.0
+    },
+    "costoIndirecto": {
+      "administracion": 0.0,
+      "utilidad": 0.0,
+      "financiamiento": 0.0,
+      "transporte": 0.0,
+      "titAdm": "% Administraci�n:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [
+      {
+        "descripcion": "% Anticipo",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Laboral",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Fiel Cumplimiento",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      }
+    ],
+    "horasPorDia": 8,
+    "gastosMedicos": false,
+    "status": "S",
+    "fechaCronograma": null,
+    "finesDeSemanaTrabajo": "SD",
+    "_codigoOriginal": "PARTINS1"
+  },
+  {
+    "id": "0cb8ea46-ab1c-45fc-b236-5a1969eb1428",
+    "codigo": "PARTINS2",
+    "descripcion": "Partidas como insumo - Reparaciones",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": "2015-02-01",
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bol�vares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": true,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 458.55,
+      "presocialBase2": 0.0,
+      "bono1": 0.0,
+      "bono2": 0.0,
+      "bono3": 0.0,
+      "limite1": 300.0,
+      "limite2": 0.0,
+      "limite3": 0.0
+    },
+    "costoIndirecto": {
+      "administracion": 0.0,
+      "utilidad": 0.0,
+      "financiamiento": 0.0,
+      "transporte": 0.0,
+      "titAdm": "% Administraci�n:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [
+      {
+        "descripcion": "% Anticipo",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Laboral",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Fiel Cumplimiento",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      }
+    ],
+    "horasPorDia": 8,
+    "gastosMedicos": false,
+    "status": "N",
+    "fechaCronograma": null,
+    "finesDeSemanaTrabajo": "SD",
+    "_codigoOriginal": "PARTINS2"
+  },
+  {
+    "id": "12dabd09-ea66-46d1-8f68-c19e3380d27c",
+    "codigo": "REPAREFO",
+    "descripcion": "Gu�a 2 - Reparaciones y Mantenimiento",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": "2015-02-01",
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bol�vares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": true,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 458.55,
+      "presocialBase2": 0.0,
+      "bono1": 0.0,
+      "bono2": 0.0,
+      "bono3": 0.0,
+      "limite1": 300.0,
+      "limite2": 0.0,
+      "limite3": 0.0
+    },
+    "costoIndirecto": {
+      "administracion": 0.0,
+      "utilidad": 0.0,
+      "financiamiento": 0.0,
+      "transporte": 0.0,
+      "titAdm": "% Administraci�n:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [
+      {
+        "descripcion": "% Anticipo",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Laboral",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Fiel Cumplimiento",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      }
+    ],
+    "horasPorDia": 8,
+    "gastosMedicos": false,
+    "status": "S",
+    "fechaCronograma": null,
+    "finesDeSemanaTrabajo": "SD",
+    "_codigoOriginal": "REPAREFO"
+  },
+  {
+    "id": "de34812c-f7cb-4eeb-934a-a34c5a5210b8",
+    "codigo": "SANEAMBI",
+    "descripcion": "Gu�a 7 - Saneamiento Ambiental",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": "2015-02-01",
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bol�vares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": true,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 398.86,
+      "presocialBase2": 0.0,
+      "bono1": 0.0,
+      "bono2": 0.0,
+      "bono3": 0.0,
+      "limite1": 300.0,
+      "limite2": 0.0,
+      "limite3": 0.0
+    },
+    "costoIndirecto": {
+      "administracion": 0.0,
+      "utilidad": 0.0,
+      "financiamiento": 0.0,
+      "transporte": 0.0,
+      "titAdm": "% Administraci�n:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [
+      {
+        "descripcion": "% Anticipo",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Laboral",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Fiel Cumplimiento",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      }
+    ],
+    "horasPorDia": 8,
+    "gastosMedicos": false,
+    "status": "S",
+    "fechaCronograma": null,
+    "finesDeSemanaTrabajo": "SD",
+    "_codigoOriginal": "SANEAMBI"
+  },
+  {
+    "id": "8bc695f7-fd04-4043-ba26-c32ef526468f",
+    "codigo": "URBANISM",
+    "descripcion": "Gu�a 3 - Urbanismo",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": "2015-02-01",
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bol�vares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": true,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 423.78,
+      "presocialBase2": 0.0,
+      "bono1": 0.0,
+      "bono2": 0.0,
+      "bono3": 0.0,
+      "limite1": 300.0,
+      "limite2": 0.0,
+      "limite3": 0.0
+    },
+    "costoIndirecto": {
+      "administracion": 0.0,
+      "utilidad": 0.0,
+      "financiamiento": 0.0,
+      "transporte": 0.0,
+      "titAdm": "% Administraci�n:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [
+      {
+        "descripcion": "% Anticipo",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Laboral",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Fiel Cumplimiento",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      }
+    ],
+    "horasPorDia": 8,
+    "gastosMedicos": false,
+    "status": "S",
+    "fechaCronograma": null,
+    "finesDeSemanaTrabajo": "SD",
+    "_codigoOriginal": "URBANISM"
+  },
+  {
+    "id": "c7da574d-a0d9-4cf6-9fbb-e9b703ddab3f",
+    "codigo": "VIALIDAD",
+    "descripcion": "Gu�a 5 - Vialidad",
+    "numeroContrato": null,
+    "calculista": null,
+    "revisor": null,
+    "propietario": null,
+    "fechaPresupuesto": "2015-02-01",
+    "moneda": {
+      "simbolo": "Bs.",
+      "nombre": "Bol�vares"
+    },
+    "aplicaImpuesto": false,
+    "porcentajeImpuesto": 0.0,
+    "utilidadIncluyeImpuesto": true,
+    "financiamientoConUtilidad": false,
+    "costosManoObra": {
+      "presocialBase": 418.98,
+      "presocialBase2": 0.0,
+      "bono1": 0.0,
+      "bono2": 0.0,
+      "bono3": 0.0,
+      "limite1": 300.0,
+      "limite2": 0.0,
+      "limite3": 0.0
+    },
+    "costoIndirecto": {
+      "administracion": 0.0,
+      "utilidad": 0.0,
+      "financiamiento": 0.0,
+      "transporte": 0.0,
+      "titAdm": "% Administraci�n:",
+      "titUti": "% Utilidad:",
+      "titFin": "% Financiamiento:"
+    },
+    "retenciones": [
+      {
+        "descripcion": "% Anticipo",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Laboral",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": "% Retenci�n Fiel Cumplimiento",
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      },
+      {
+        "descripcion": null,
+        "porcentaje": 0.0,
+        "monto": 0.0
+      }
+    ],
+    "horasPorDia": 8,
+    "gastosMedicos": false,
+    "status": "S",
+    "fechaCronograma": "2015-02-01",
+    "finesDeSemanaTrabajo": "SD",
+    "_codigoOriginal": "VIALIDAD"
+  }
+]

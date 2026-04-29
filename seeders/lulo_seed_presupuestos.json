@@ -1,0 +1,1357 @@
+[
+  {
+    "id": "e5113944-8e58-4d62-a52b-379b9242dc10",
+    "proyectoId": "61755a32-2b69-477b-881e-62a7ea4bc136",
+    "codigoProyecto": "CORPOEP",
+    "capitulos": [
+      {
+        "id": "7f157632-261c-442d-aa58-22f33a32d41e",
+        "numero": 35,
+        "descripcion": "12.- MONTAJE DE EQUIPOS MAYORES",
+        "partidas": [],
+        "_codCapOriginal": "35"
+      },
+      {
+        "id": "5273122f-053c-4ce6-b926-b0f1c9c52480",
+        "numero": 36,
+        "descripcion": "20.- SISTEMA DE DISTRIBUCI�N EL�CTRICA",
+        "partidas": [],
+        "_codCapOriginal": "36"
+      }
+    ],
+    "_codigoProyectoOriginal": "CORPOEP"
+  },
+  {
+    "id": "918f93f5-6587-48e6-a9bf-2a3864cb367f",
+    "proyectoId": "3b9590b3-f659-4508-b9bf-88eb3032c958",
+    "codigoProyecto": "CORPOLEC",
+    "capitulos": [
+      {
+        "id": "e1f7d5ab-1d1f-47f8-b5af-cae027a786a8",
+        "numero": 1,
+        "descripcion": "1.- ESTUDIOS PREVIOS",
+        "partidas": [],
+        "_codCapOriginal": "1"
+      },
+      {
+        "id": "c8088827-cba0-4668-be80-31279420243c",
+        "numero": 2,
+        "descripcion": "2.- OBRAS PROVISIONALES",
+        "partidas": [],
+        "_codCapOriginal": "2"
+      },
+      {
+        "id": "cf5a6b5d-8e72-48c7-a355-e3c7b5ffe5dd",
+        "numero": 3,
+        "descripcion": "3.- CONTRATACION DE PERSONAL ITINERANTE",
+        "partidas": [],
+        "_codCapOriginal": "3"
+      },
+      {
+        "id": "54259430-91d3-4dfd-a223-a92a7860f1a8",
+        "numero": 4,
+        "descripcion": "4.- DEFORESTACION",
+        "partidas": [],
+        "_codCapOriginal": "4"
+      },
+      {
+        "id": "7d91ea97-f363-4360-9147-beb8bdfde8e2",
+        "numero": 5,
+        "descripcion": "5.- MOVIMIENTO DE TIERRA",
+        "partidas": [],
+        "_codCapOriginal": "5"
+      },
+      {
+        "id": "39863de8-3bd0-40bf-a7b5-26e498e0fe4e",
+        "numero": 6,
+        "descripcion": "6..- EDIFICACIONES",
+        "partidas": [],
+        "_codCapOriginal": "6"
+      },
+      {
+        "id": "5314f347-94aa-434a-a065-804f5e1f23d2",
+        "numero": 9,
+        "descripcion": "9.- ACABADOS",
+        "partidas": [],
+        "_codCapOriginal": "9"
+      },
+      {
+        "id": "4c542e3d-f222-499a-8ecf-7d3ed682430d",
+        "numero": 10,
+        "descripcion": "10.- VIALIDAD INTERNA",
+        "partidas": [],
+        "_codCapOriginal": "10"
+      },
+      {
+        "id": "db7fd161-e623-4037-a74c-b32f0d6929a4",
+        "numero": 11,
+        "descripcion": "11.- INSTALACIONES SANITARIAS",
+        "partidas": [],
+        "_codCapOriginal": "11"
+      },
+      {
+        "id": "b4031d76-5f1c-4ee6-a554-6db8cf38b637",
+        "numero": 13,
+        "descripcion": "13.- SISTEMA PUESTA A TIERRA",
+        "partidas": [],
+        "_codCapOriginal": "13"
+      },
+      {
+        "id": "577eef2d-185c-4e44-82a5-2517fcdf5e3c",
+        "numero": 14,
+        "descripcion": "14.- INSTALACIONES DE PARARRAYOS DE DESCARGA ATMOSF�RICA",
+        "partidas": [],
+        "_codCapOriginal": "14"
+      },
+      {
+        "id": "6cc4579b-17f3-4f77-997e-3ee5c8923b0e",
+        "numero": 15,
+        "descripcion": "15.- SUMINISTRO E INSTALACIONES DE CABLES DE BAJA TENSI�N",
+        "partidas": [],
+        "_codCapOriginal": "15"
+      },
+      {
+        "id": "64b1da57-6355-4f73-87b1-aeacccc62ee0",
+        "numero": 16,
+        "descripcion": "16.- INSTALACIONES DE CABLES  A SER SUMINISTRADOS POR EL ENTE CONTRATANTE",
+        "partidas": [],
+        "_codCapOriginal": "16"
+      },
+      {
+        "id": "9c506287-0256-43e2-a003-b680d23403c6",
+        "numero": 17,
+        "descripcion": "17.- CABLEADO, CONEXIONES E INSTALACIONES PARTICULARES",
+        "partidas": [],
+        "_codCapOriginal": "17"
+      },
+      {
+        "id": "2f73fd1a-c9ff-454d-8a9e-26208bbdb064",
+        "numero": 18,
+        "descripcion": "18.- SISTEMA DE ILUMINACI�N EXTERIOR",
+        "partidas": [],
+        "_codCapOriginal": "18"
+      },
+      {
+        "id": "4ca4bd72-6198-49cb-95c3-eaf54bb531f4",
+        "numero": 19,
+        "descripcion": "19.- CANALIZACIONES SUBTERR�NEAS",
+        "partidas": [],
+        "_codCapOriginal": "19"
+      },
+      {
+        "id": "0460cc0e-a4dd-4231-ad07-6942d8290f53",
+        "numero": 21,
+        "descripcion": "21.- INSTALACI�N DE EQUIPOS ILUMINACI�N INTERIOR",
+        "partidas": [],
+        "_codCapOriginal": "21"
+      },
+      {
+        "id": "790c22e1-02a4-475b-bc01-f7f357dcbff9",
+        "numero": 22,
+        "descripcion": "22.- CONEXIONADO Y PRUEBAS",
+        "partidas": [],
+        "_codCapOriginal": "22"
+      },
+      {
+        "id": "93925b65-fc7e-4f7f-bedb-846d56e6173c",
+        "numero": 23,
+        "descripcion": "23.- INSTALACIONE DE EQUIPOS MAYORES",
+        "partidas": [],
+        "_codCapOriginal": "23"
+      },
+      {
+        "id": "9a17cae3-bd60-4b86-9271-d21c2f8931cd",
+        "numero": 24,
+        "descripcion": "24.- INSTALACIONES  DE EQUIPOS MENORES",
+        "partidas": [],
+        "_codCapOriginal": "24"
+      },
+      {
+        "id": "d9e7d4b0-7ae3-43e5-a886-684f2d1618d1",
+        "numero": 25,
+        "descripcion": "25.- INSTALACIONES DE TUBER�AS DE ACERO",
+        "partidas": [],
+        "_codCapOriginal": "25"
+      },
+      {
+        "id": "c2749062-b021-43af-978a-37da2b60ad94",
+        "numero": 26,
+        "descripcion": "26.- INSTALACION DE INSTRUMENTOS",
+        "partidas": [],
+        "_codCapOriginal": "26"
+      },
+      {
+        "id": "ca6a79fc-2aa7-4302-bfdd-a120e0748e9b",
+        "numero": 27,
+        "descripcion": "27.- INSTALACIONES DE V�LVULAS Y EQUIPOS BRIDADOS",
+        "partidas": [],
+        "_codCapOriginal": "27"
+      },
+      {
+        "id": "3f72eec4-1063-4850-80ef-84d0a7724768",
+        "numero": 28,
+        "descripcion": "28.- FABRICACI�N, SUMIISTRO E INSTALACIONES DE SOPORTES PARA TUBER�AS Y ACCESORIOS",
+        "partidas": [],
+        "_codCapOriginal": "28"
+      },
+      {
+        "id": "7b075151-8e48-449a-a8eb-0f3535bddfbe",
+        "numero": 29,
+        "descripcion": "29.- PREPARACI�N DE SUPERFICIES, LIMPIEZA, SUMINISTRO Y RECUBRIMIENTO  DE PINTURAS EN TUBER�AS , V�LVULAS, SOPORTES  MET�LICOS Y ACCESORIOS.",
+        "partidas": [],
+        "_codCapOriginal": "29"
+      },
+      {
+        "id": "1607172b-99e9-4f4f-b5e4-58841d514c90",
+        "numero": 30,
+        "descripcion": "30.- PRUEBAS HIROST�TICAS  PARA  EL SISTEMA DE  TUBER�AS Y ACCESORIOS.",
+        "partidas": [],
+        "_codCapOriginal": "30"
+      },
+      {
+        "id": "ac720880-7f47-4e95-8277-c02afb182c68",
+        "numero": 31,
+        "descripcion": "31.-VARIOS",
+        "partidas": [],
+        "_codCapOriginal": "31"
+      },
+      {
+        "id": "b49786cc-0d14-42b1-872e-128b800cce4e",
+        "numero": 32,
+        "descripcion": "8.- CONSTRUCCION DE TANQUILLAS, SOTANOS Y CANALES",
+        "partidas": [],
+        "_codCapOriginal": "32"
+      },
+      {
+        "id": "00ce5f6c-dc5d-4ddc-9ece-e8325d34a6d2",
+        "numero": 34,
+        "descripcion": "7..- OBRAS DE CONCRETO",
+        "partidas": [],
+        "_codCapOriginal": "34"
+      }
+    ],
+    "_codigoProyectoOriginal": "CORPOLEC"
+  },
+  {
+    "id": "de462101-1a24-44b0-866f-4adf8fd9426f",
+    "proyectoId": "1b4d2103-188d-48ed-800f-2d1b965c2300",
+    "codigoProyecto": "LULO1",
+    "capitulos": [
+      {
+        "id": "e73fc5c8-b364-49bd-8621-da9d68aa78b3",
+        "numero": 1,
+        "descripcion": "ESTUDIOS Y PROYECTOS",
+        "partidas": [],
+        "_codCapOriginal": "1"
+      },
+      {
+        "id": "a0ecb4b7-ca41-4a23-aed2-9e9439518980",
+        "numero": 2,
+        "descripcion": "OBRAS PRELIMINARES",
+        "partidas": [],
+        "_codCapOriginal": "2"
+      },
+      {
+        "id": "2a648562-7de3-47ba-b4c5-a75bfa92298d",
+        "numero": 3,
+        "descripcion": "MOVIMIENTO DE TIERRA",
+        "partidas": [],
+        "_codCapOriginal": "3"
+      },
+      {
+        "id": "64f96a4f-b6c4-4ace-9624-c49cc5d775df",
+        "numero": 4,
+        "descripcion": "ESTRUCTURAS",
+        "partidas": [],
+        "_codCapOriginal": "4"
+      },
+      {
+        "id": "3e564666-7f52-41fc-984a-2a0ac4652cf7",
+        "numero": 5,
+        "descripcion": "OBRAS ARQUITECTONICAS",
+        "partidas": [],
+        "_codCapOriginal": "5"
+      },
+      {
+        "id": "9088d30a-a531-486f-bf36-0fdd146386b0",
+        "numero": 6,
+        "descripcion": "INSTALACIONES ELECTRICAS",
+        "partidas": [],
+        "_codCapOriginal": "6"
+      },
+      {
+        "id": "4467b6f9-0be0-4ba1-a74c-f48a84f24693",
+        "numero": 7,
+        "descripcion": "INSTALACIONES SANITARIAS",
+        "partidas": [],
+        "_codCapOriginal": "7"
+      },
+      {
+        "id": "f8582897-52a6-48e7-827e-4b70e7fd0b5c",
+        "numero": 8,
+        "descripcion": "INSTALACIONES ELECTROMECANICAS",
+        "partidas": [],
+        "_codCapOriginal": "8"
+      },
+      {
+        "id": "400804c5-5622-4dc9-a498-003aae7637e9",
+        "numero": 9,
+        "descripcion": "OBRAS DE SERVICIOS",
+        "partidas": [],
+        "_codCapOriginal": "9"
+      },
+      {
+        "id": "b4699307-ff3b-48a4-b5d0-f31ec18174b1",
+        "numero": 10,
+        "descripcion": "TRANSPORTES",
+        "partidas": [],
+        "_codCapOriginal": "10"
+      },
+      {
+        "id": "36924717-9995-4054-9dac-3e5dda9b41db",
+        "numero": 11,
+        "descripcion": "VARIOS",
+        "partidas": [],
+        "_codCapOriginal": "11"
+      },
+      {
+        "id": "a7f0e703-ea6f-4241-ba93-b0dbab48fc88",
+        "numero": 12,
+        "descripcion": "INFRAESTRUCTURA",
+        "partidas": [],
+        "_codCapOriginal": "12"
+      },
+      {
+        "id": "5884aa37-c84c-4416-8490-22fcbb47577e",
+        "numero": 13,
+        "descripcion": "OBRAS DE CONCRETO",
+        "partidas": [],
+        "_codCapOriginal": "13"
+      },
+      {
+        "id": "31e0d025-b977-49c7-8498-f15c51f667cd",
+        "numero": 14,
+        "descripcion": "OBRAS PROVISIONALES",
+        "partidas": [],
+        "_codCapOriginal": "14"
+      }
+    ],
+    "_codigoProyectoOriginal": "LULO1"
+  },
+  {
+    "id": "0f018b09-53ef-4343-9c2d-f612c37e4ea8",
+    "proyectoId": null,
+    "codigoProyecto": "URBAN11",
+    "capitulos": [
+      {
+        "id": "5750f398-ca98-4ad8-97d6-774b0593e905",
+        "numero": 1,
+        "descripcion": "Capitulo 1",
+        "partidas": [
+          {
+            "apuId": null,
+            "codigoPartida": "OPRE-002",
+            "cantidad": 300.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 1
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB003",
+            "cantidad": 80.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 2
+          }
+        ],
+        "_codCapOriginal": "1"
+      },
+      {
+        "id": "4afa0d82-6c2a-4ba8-a9a1-f4ac54b39e48",
+        "numero": 2,
+        "descripcion": "Capitulo 2",
+        "partidas": [
+          {
+            "apuId": null,
+            "codigoPartida": "URB009",
+            "cantidad": 134.38,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 3
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB010",
+            "cantidad": 2500.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 4
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB0011",
+            "cantidad": 2500.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 5
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB012",
+            "cantidad": 10000.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 6
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB013",
+            "cantidad": 37.31,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 7
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB014",
+            "cantidad": 6500.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 8
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB015",
+            "cantidad": 3658.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 9
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URBO16",
+            "cantidad": 6100.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 10
+          }
+        ],
+        "_codCapOriginal": "2"
+      },
+      {
+        "id": "bc4239ea-53ff-477b-8787-b0880fbc613c",
+        "numero": 3,
+        "descripcion": "Capitulo 3",
+        "partidas": [
+          {
+            "apuId": null,
+            "codigoPartida": "URB017",
+            "cantidad": 2160.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 11
+          }
+        ],
+        "_codCapOriginal": "3"
+      },
+      {
+        "id": "5e3b13ed-f11e-425e-8326-1e94a676da0e",
+        "numero": 4,
+        "descripcion": "Capitulo 4",
+        "partidas": [
+          {
+            "apuId": null,
+            "codigoPartida": "URB018",
+            "cantidad": 1000.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 12
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB019",
+            "cantidad": 33.82,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 13
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB020",
+            "cantidad": 2.27,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 14
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB021",
+            "cantidad": 37.31,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 15
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB022",
+            "cantidad": 694.05,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 16
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB023",
+            "cantidad": 561.76,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 17
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB024",
+            "cantidad": 2.08,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 18
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "*CONC005",
+            "cantidad": 10.22,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 19
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB026",
+            "cantidad": 587.96,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 20
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URBO27",
+            "cantidad": 41.3,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 21
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB028",
+            "cantidad": 9.23,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 22
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB029",
+            "cantidad": 29984.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 23
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB030",
+            "cantidad": 36132.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 24
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB031",
+            "cantidad": 9446.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 25
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB032",
+            "cantidad": 6062.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 26
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB033",
+            "cantidad": 2721.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 27
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB034",
+            "cantidad": 693.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 28
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB035",
+            "cantidad": 9321.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 29
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB037",
+            "cantidad": 638.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 30
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB038",
+            "cantidad": 638.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 31
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB039",
+            "cantidad": 638.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 32
+          }
+        ],
+        "_codCapOriginal": "4"
+      },
+      {
+        "id": "ea221e4c-2a2f-46a7-878a-d8221076a615",
+        "numero": 5,
+        "descripcion": "Capitulo 5",
+        "partidas": [
+          {
+            "apuId": null,
+            "codigoPartida": "URB062",
+            "cantidad": 30.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 33
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB064",
+            "cantidad": 5.04,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 34
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB065",
+            "cantidad": 5.04,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 35
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB066",
+            "cantidad": 10.08,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 36
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB067",
+            "cantidad": 4.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 37
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB068",
+            "cantidad": 4.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 38
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB069",
+            "cantidad": 25.24,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 39
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB070",
+            "cantidad": 2.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 40
+          }
+        ],
+        "_codCapOriginal": "5"
+      },
+      {
+        "id": "42335508-e080-418b-96c2-4502b6182f80",
+        "numero": 6,
+        "descripcion": "Capitulo 6",
+        "partidas": [
+          {
+            "apuId": null,
+            "codigoPartida": "SOBREPIS",
+            "cantidad": 1800.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 41
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB071",
+            "cantidad": 3600.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 42
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB072",
+            "cantidad": 3600.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 43
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB073",
+            "cantidad": 560.85,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 44
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB074",
+            "cantidad": 345.06,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 45
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB075",
+            "cantidad": 345.09,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 46
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB078",
+            "cantidad": 905.09,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 47
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB079",
+            "cantidad": 345.09,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 48
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB080",
+            "cantidad": 10.08,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 49
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB081",
+            "cantidad": 10.08,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 50
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB082",
+            "cantidad": 9.24,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 51
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB083",
+            "cantidad": 30.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 52
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB084",
+            "cantidad": 25.24,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 53
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB085",
+            "cantidad": 2.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 54
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB087",
+            "cantidad": 90.62,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 55
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB088",
+            "cantidad": 154.69,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 57
+          }
+        ],
+        "_codCapOriginal": "6"
+      },
+      {
+        "id": "179d8d23-c910-4e85-9f81-da5d8ac0cd8f",
+        "numero": 7,
+        "descripcion": "Capitulo 7",
+        "partidas": [
+          {
+            "apuId": null,
+            "codigoPartida": "*TUBER01",
+            "cantidad": 205.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 58
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB089",
+            "cantidad": 570.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 59
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB090",
+            "cantidad": 60.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 60
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB091",
+            "cantidad": 880.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 61
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "TUBPAV5",
+            "cantidad": 20.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 62
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB092",
+            "cantidad": 590.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 63
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB093",
+            "cantidad": 2000.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 64
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB095",
+            "cantidad": 96.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 65
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB098",
+            "cantidad": 150.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 66
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB099",
+            "cantidad": 750.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 67
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB100",
+            "cantidad": 96.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 68
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB102",
+            "cantidad": 6.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 69
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB104",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 70
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB109",
+            "cantidad": 34.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 71
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB111",
+            "cantidad": 2.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 72
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB112",
+            "cantidad": 2.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 73
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "TRANSF",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 74
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB114",
+            "cantidad": 80.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 75
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB115",
+            "cantidad": 60.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 76
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB116",
+            "cantidad": 3.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 77
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB117",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 78
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "*TUBEMT5",
+            "cantidad": 30.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 79
+          }
+        ],
+        "_codCapOriginal": "7"
+      },
+      {
+        "id": "d754d700-8551-4475-9972-8df764bcfc2b",
+        "numero": 8,
+        "descripcion": "Capitulo 8",
+        "partidas": [
+          {
+            "apuId": null,
+            "codigoPartida": "UBR120",
+            "cantidad": 75.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 80
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB093",
+            "cantidad": 380.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 81
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB101",
+            "cantidad": 200.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 82
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB123",
+            "cantidad": 58.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 83
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB124",
+            "cantidad": 21.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 84
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB125",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 85
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB126",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 86
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB127",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 87
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB128",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 88
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB129",
+            "cantidad": 40.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 89
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB130",
+            "cantidad": 13.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 90
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB131",
+            "cantidad": 8.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 91
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB134",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 92
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB133",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 93
+          }
+        ],
+        "_codCapOriginal": "8"
+      },
+      {
+        "id": "8a335741-e093-4189-a9be-9ec8fb85a923",
+        "numero": 9,
+        "descripcion": "Capitulo 9",
+        "partidas": [
+          {
+            "apuId": null,
+            "codigoPartida": "URB134",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 94
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB135",
+            "cantidad": 18.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 95
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB136",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 96
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "UBR137",
+            "cantidad": 1.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 97
+          }
+        ],
+        "_codCapOriginal": "9"
+      },
+      {
+        "id": "099af66c-2a02-48a8-a262-bac4d9302c60",
+        "numero": 10,
+        "descripcion": "Capitulo 10",
+        "partidas": [
+          {
+            "apuId": null,
+            "codigoPartida": "URB139",
+            "cantidad": 400.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 98
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB140",
+            "cantidad": 20.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 99
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB141",
+            "cantidad": 8.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 100
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB142",
+            "cantidad": 260.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 101
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB143",
+            "cantidad": 4.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 102
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "CODO63",
+            "cantidad": 26.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 103
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB145",
+            "cantidad": 2.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 104
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB146",
+            "cantidad": 20.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 105
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB147",
+            "cantidad": 4.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 106
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB148",
+            "cantidad": 390.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 107
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB149",
+            "cantidad": 20.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 108
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB150",
+            "cantidad": 4.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 109
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB0151",
+            "cantidad": 58.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 110
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB152",
+            "cantidad": 14.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 111
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB153",
+            "cantidad": 365.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 112
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "UBR144",
+            "cantidad": 18.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 113
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB155",
+            "cantidad": 2.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 114
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB156",
+            "cantidad": 8.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 115
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB1571",
+            "cantidad": 62.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 116
+          },
+          {
+            "apuId": null,
+            "codigoPartida": "URB158",
+            "cantidad": 70.0,
+            "precioUnitario": 0,
+            "montoTotal": 0,
+            "numeroPar": 117
+          }
+        ],
+        "_codCapOriginal": "10"
+      }
+    ],
+    "_codigoProyectoOriginal": "URBAN11"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "03f62569-7eac-452b-b0c4-0036c7b3f8bf",
+    "codigo": "00",
+    "tipo": "material",
+    "descripcion": "SIN FAMILIA ASIGNADA",
+    "referencia": null
+  },
+  {
+    "id": "acedf46d-56b7-499c-b69f-9c1062043205",
+    "codigo": "01",
+    "tipo": "material",
+    "descripcion": "PRODUCTOS  DE  ACERO",
+    "referencia": null
+  },
+  {
+    "id": "87154bcd-7a9a-4eb2-8a73-f49ee19d6160",
+    "codigo": "02",
+    "tipo": "material",
+    "descripcion": "CEMENTOS,  CALES Y  OTROS.",
+    "referencia": null
+  },
+  {
+    "id": "68cc5a79-060b-4e09-8702-5a0396256b4d",
+    "codigo": "03",
+    "tipo": "material",
+    "descripcion": "AGREGADOS PARA CONCRETO",
+    "referencia": null
+  },
+  {
+    "id": "f0857015-3bcb-4ce0-864f-f300994cfb8c",
+    "codigo": "04",
+    "tipo": "material",
+    "descripcion": "MADERA  PARA  ENCOFRADOS",
+    "referencia": null
+  },
+  {
+    "id": "b456ecd5-e090-4c66-abe1-4a6be5389b0f",
+    "codigo": "05",
+    "tipo": "material",
+    "descripcion": "PRODUCTOS  DE  CONCRETO",
+    "referencia": null
+  },
+  {
+    "id": "2220939b-0634-4251-bf23-63940c2298ea",
+    "codigo": "06",
+    "tipo": "material",
+    "descripcion": "PILOTAJES(ELIMINADO BCV)",
+    "referencia": null
+  },
+  {
+    "id": "5a3e195d-c94a-40fc-86cc-30844a661108",
+    "codigo": "07",
+    "tipo": "material",
+    "descripcion": "PRODUCTOS DE ARCILLA",
+    "referencia": null
+  },
+  {
+    "id": "aba5e4e9-55e2-4d00-af77-22b5fa78194c",
+    "codigo": "08",
+    "tipo": "material",
+    "descripcion": "PRODUCTO ASBESTO CEMENTO (ELIMINADO BCV)",
+    "referencia": null
+  },
+  {
+    "id": "3404d408-609c-4400-811d-85a9dcc08a6c",
+    "codigo": "09",
+    "tipo": "material",
+    "descripcion": "RECUBRIMIENTO P/PISOS PAREDES Y TECHOS",
+    "referencia": null
+  },
+  {
+    "id": "639f164d-f81c-4ef4-bb94-8c8419632f0a",
+    "codigo": "10",
+    "tipo": "material",
+    "descripcion": "PRODUCTOS ASFALTICOS",
+    "referencia": null
+  },
+  {
+    "id": "a15bee78-ed8f-4d1a-b658-9d3e9c11cc69",
+    "codigo": "11",
+    "tipo": "material",
+    "descripcion": "CARPINTERIA CERRAJERIA Y ACCESORIOS",
+    "referencia": null
+  },
+  {
+    "id": "bad7252b-81bd-491e-a89a-f464497e616b",
+    "codigo": "12",
+    "tipo": "material",
+    "descripcion": "MATERIALES DE PLOMERIA",
+    "referencia": null
+  },
+  {
+    "id": "c5eb9108-ac42-4da7-a260-2a824b320113",
+    "codigo": "13",
+    "tipo": "material",
+    "descripcion": "ARTEFACTOS SANITARIOS Y ACCESORIOS",
+    "referencia": null
+  },
+  {
+    "id": "8dd36815-2660-4375-8609-d478885967ea",
+    "codigo": "14",
+    "tipo": "material",
+    "descripcion": "MATERIALES Y ACCESORIOS ELECTRICOS",
+    "referencia": null
+  },
+  {
+    "id": "8a506fae-e399-40ff-a406-48beedd7b9f2",
+    "codigo": "15",
+    "tipo": "material",
+    "descripcion": "HERRERIA",
+    "referencia": null
+  },
+  {
+    "id": "0aa726d7-4392-45a3-ac73-8cab6a12c2d2",
+    "codigo": "16",
+    "tipo": "material",
+    "descripcion": "VIDRIO",
+    "referencia": null
+  },
+  {
+    "id": "21bfc669-ce4f-4b75-8126-971c69edf59c",
+    "codigo": "17",
+    "tipo": "material",
+    "descripcion": "PINTURAS",
+    "referencia": null
+  },
+  {
+    "id": "cc089c97-8eb2-4b6c-95a7-bc56fc3b47a6",
+    "codigo": "18",
+    "tipo": "material",
+    "descripcion": "JARDINERIA",
+    "referencia": null
+  },
+  {
+    "id": "0c2a3b2e-ef14-40cc-a0f0-0c1b020cc7c9",
+    "codigo": "19",
+    "tipo": "material",
+    "descripcion": "EQUIPOS  ALARMA Y DETENCION DE INCENDIOI",
+    "referencia": null
+  },
+  {
+    "id": "bbaa8c0b-9c6d-47b3-b172-2d9eed171c35",
+    "codigo": "20",
+    "tipo": "material",
+    "descripcion": "SISTEMA HIDRONEUMATICO",
+    "referencia": null
+  },
+  {
+    "id": "1732774c-67f8-4dae-8734-5a454ed04878",
+    "codigo": "21",
+    "tipo": "material",
+    "descripcion": "SISTEMA RECOLECCIO BASURA(ELIMINADO BCV)",
+    "referencia": null
+  },
+  {
+    "id": "9f524590-a55e-4fab-9d80-7445f6e42daf",
+    "codigo": "22",
+    "tipo": "material",
+    "descripcion": "SISTEMA DE VENTILACION FORZADA",
+    "referencia": null
+  },
+  {
+    "id": "4244f1d0-111b-4958-a60a-fb7ad8872822",
+    "codigo": "23",
+    "tipo": "material",
+    "descripcion": "ASCENSORES",
+    "referencia": null
+  },
+  {
+    "id": "609b5205-90cc-49b4-bd29-d0da96137583",
+    "codigo": "24",
+    "tipo": "material",
+    "descripcion": "COMBUSTIBLES Y LUBRICANTES",
+    "referencia": null
+  },
+  {
+    "id": "e1bc859c-187b-4387-ac01-e67f2e0e9e77",
+    "codigo": "25",
+    "tipo": "material",
+    "descripcion": "MATERIALES  VARIOS  NO  CONTEMPLADOS",
+    "referencia": null
+  },
+  {
+    "id": "50b58df4-fd49-4937-af49-bc2a4811a859",
+    "codigo": "30",
+    "tipo": "material",
+    "descripcion": "PRODUCTOS SELLADORES DE JUNTA",
+    "referencia": "PROPIO"
+  },
+  {
+    "id": "4699104b-c9bb-4021-9bda-13ff29cf6891",
+    "codigo": "31",
+    "tipo": "material",
+    "descripcion": "PINTURA THERMO PLASTICA EN SOLUCION",
+    "referencia": "PROPIO"
+  },
+  {
+    "id": "921068da-1c8e-484d-ad66-059dcf173c2f",
+    "codigo": "32",
+    "tipo": "material",
+    "descripcion": "PRODUCTOS ADHERENTE DE CONCRETO",
+    "referencia": "PROPIO"
+  },
+  {
+    "id": "97883c24-b96c-4f3d-ba3b-4a28a7797397",
+    "codigo": "34",
+    "tipo": "material",
+    "descripcion": "PRODUCTOS DE MANGUERAS",
+    "referencia": "PROPIO"
+  },
+  {
+    "id": "73f03e5f-1667-4129-8d8a-fb4a5989f604",
+    "codigo": "50",
+    "tipo": "material",
+    "descripcion": "MATERIALES EN GENERAL",
+    "referencia": "III.10"
+  },
+  {
+    "id": "c333cbac-24b8-4439-b583-694609725cb9",
+    "codigo": "60",
+    "tipo": "material",
+    "descripcion": "TRANSPORTE",
+    "referencia": "III.9"
+  },
+  {
+    "id": "908bed71-1466-43e3-af73-7f3b95ecc135",
+    "codigo": "00",
+    "tipo": "equipo",
+    "descripcion": "SIN FAMILIA ASIGNADA",
+    "referencia": null
+  },
+  {
+    "id": "700a511f-6fa0-41c3-85b5-c541717f9a88",
+    "codigo": "01",
+    "tipo": "equipo",
+    "descripcion": "MAQUINARIAS, EQUIPOS, PARTES Y PIEZAS",
+    "referencia": "III.9A"
+  },
+  {
+    "id": "dcfdf3ed-3c22-4ac6-b7bf-57f7f318d94b",
+    "codigo": "02",
+    "tipo": "equipo",
+    "descripcion": "MAQUINARIAS, EQUIPOS, PARTES Y PIEZAS",
+    "referencia": "III.9A"
+  },
+  {
+    "id": "c41d5851-500c-466f-8826-9cb21eb7ed5e",
+    "codigo": "03",
+    "tipo": "equipo",
+    "descripcion": "MOTORES,GENERADORES,TRANSFORMADORES ELEC",
+    "referencia": "III.9A"
+  },
+  {
+    "id": "07676f31-daa6-4a8f-9a90-b13d1fa0aad7",
+    "codigo": "04",
+    "tipo": "equipo",
+    "descripcion": "VEHICULOS AUTOMOTORES Y REMOLQUES",
+    "referencia": null
+  },
+  {
+    "id": "12fa2449-ef3f-4653-9306-412b447e4496",
+    "codigo": "00",
+    "tipo": "manoDeObra",
+    "descripcion": "SIN FAMILIA ASIGNADA",
+    "referencia": null
+  },
+  {
+    "id": "67d4c893-3d02-45df-a740-4a545215e8f2",
+    "codigo": "01",
+    "tipo": "manoDeObra",
+    "descripcion": "MANO DE OBRA CONVENCION",
+    "referencia": "MINFRA"
+  },
+  {
+    "id": "2012f4b0-5556-4cdb-a266-bc87f9eddf39",
+    "codigo": "02",
+    "tipo": "manoDeObra",
+    "descripcion": "MANO DE OBRA PETROLERO",
+    "referencia": "PROPIO"
+  }
+]

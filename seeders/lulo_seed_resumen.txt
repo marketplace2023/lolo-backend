@@ -1,0 +1,34 @@
+
+============================================================
+  RESUMEN DE MIGRACION - LuloWinNG -> Lulo Web
+  Fecha: 2026-04-16 13:12:25
+  Fuente MDB: C:\LuloWinNG\LULO.MDB
+============================================================
+
+  Insumos
+  -------
+  - Familias      :     40
+  - Materiales    :   3209
+  - Equipos       :    672
+  - Mano de Obra  :    164
+  - Total Insumos :   4045
+
+  Proyectos y APU
+  ---------------
+  - Proyectos     :     13
+  - Partidas (cat):   8057
+  - APU (analisis):   8062
+
+  Presupuestos
+  ------------
+  - Presupuestos  :      4
+  - Capitulos     :     55
+
+  Control de Obra
+  ---------------
+  - Valuaciones   :      0
+  - Mediciones    :      0
+  - Cronogramas   :      1
+
+  Archivos generados en: C:\LuloWinNG\output
+============================================================

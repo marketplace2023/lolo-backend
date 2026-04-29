@@ -19,6 +19,11 @@ import { measurementsRoutes } from "./routes/measurements.js";
 import { memoriasRoutes } from "./routes/memorias.js";
 import { chaptersRoutes } from "./routes/chapters.js";
 import { reportsRoutes } from "./routes/reports.js";
+import { extrasRoutes } from "./routes/extras.js";
+import { cierreRoutes } from "./routes/cierre.js";
+import { dashboardRoutes } from "./routes/dashboard.js";
+import { cronogramaRoutes } from "./routes/cronograma.js";
+import { marketplaceRoutes } from "./routes/marketplace.js";
 
 config();
 
@@ -53,6 +58,11 @@ api.route("/", measurementsRoutes);
 api.route("/", memoriasRoutes);
 api.route("/", chaptersRoutes);
 api.route("/", reportsRoutes);
+api.route("/", extrasRoutes);
+api.route("/", cierreRoutes);
+api.route("/", dashboardRoutes);
+api.route("/", cronogramaRoutes);
+api.route("/", marketplaceRoutes);
 
 app.route("/api", api);
 

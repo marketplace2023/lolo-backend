@@ -17,7 +17,7 @@ import { config } from "dotenv";
 config();
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const SEEDERS_PATH = join(__dirname, "../../..", "my-app/seeders");
+const SEEDERS_PATH = process.env.SEEDERS_PATH ? join(__dirname, "../../", process.env.SEEDERS_PATH) : join(__dirname, "../../seeders");
 
 function readJson<T>(filename: string): T {
   const p = join(SEEDERS_PATH, filename);

@@ -16,6 +16,15 @@ export const companies = pgTable("companies", {
   email: varchar("email", { length: 100 }),
   logo: text("logo"),
   configurada: boolean("configurada").default(false),
+  // Marketplace visibility fields
+  descripcionPublica: text("descripcion_publica"),
+  especialidades: jsonb("especialidades"),        // ["Residencial", "Industrial", ...]
+  estadoUbicacion: varchar("estado_ubicacion", { length: 50 }),
+  anosFundacion: integer("anos_fundacion"),
+  rncContratista: varchar("rnc_contratista", { length: 20 }),
+  isPublic: boolean("is_public").default(false),  // visible in marketplace
+  rating: numeric("rating", { precision: 3, scale: 2 }).default("0"),
+  totalProyectos: integer("total_proyectos").default(0),
   createdAt: timestamp("created_at").defaultNow(),
   updatedAt: timestamp("updated_at").defaultNow(),
 });
@@ -120,6 +129,50 @@ export const labors = pgTable("labors", {
   updatedAt: timestamp("updated_at").defaultNow(),
 }, (t) => [
   index("labors_codigo_idx").on(t.codigo),
+]);
+
+// ─────────────────────────────────────────────
+// SUB-MAESTROS (COMPANY OVERRIDES)
+// ─────────────────────────────────────────────
+
+export const companyMaterials = pgTable("company_materials", {
+  id: uuid("id").primaryKey().default(sql`gen_random_uuid()`),
+  companyId: uuid("company_id").notNull().references(() => companies.id, { onDelete: "cascade" }),
+  materialId: uuid("material_id").notNull().references(() => materials.id, { onDelete: "cascade" }),
+  precioLocal: numeric("precio_local", { precision: 20, scale: 6 }).default("0"),
+  fleteLocal: numeric("flete_local", { precision: 20, scale: 6 }).default("0"),
+  disponible: boolean("disponible").default(true),
+  stock: numeric("stock", { precision: 15, scale: 4 }).default("0"),
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+}, (t) => [
+  uniqueIndex("company_materials_unique").on(t.companyId, t.materialId),
+]);
+
+export const companyEquipments = pgTable("company_equipments", {
+  id: uuid("id").primaryKey().default(sql`gen_random_uuid()`),
+  companyId: uuid("company_id").notNull().references(() => companies.id, { onDelete: "cascade" }),
+  equipmentId: uuid("equipment_id").notNull().references(() => equipments.id, { onDelete: "cascade" }),
+  precioLocal: numeric("precio_local", { precision: 20, scale: 6 }).default("0"),
+  depreciacionLocal: numeric("depreciacion_local", { precision: 15, scale: 6 }),
+  disponible: boolean("disponible").default(true),
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+}, (t) => [
+  uniqueIndex("company_equipments_unique").on(t.companyId, t.equipmentId),
+]);
+
+export const companyLabors = pgTable("company_labors", {
+  id: uuid("id").primaryKey().default(sql`gen_random_uuid()`),
+  companyId: uuid("company_id").notNull().references(() => companies.id, { onDelete: "cascade" }),
+  laborId: uuid("labor_id").notNull().references(() => labors.id, { onDelete: "cascade" }),
+  precioLocal: numeric("precio_local", { precision: 20, scale: 6 }).default("0"),
+  fcocLocal: numeric("fcoc_local", { precision: 15, scale: 6 }), // Factor de Costo de Operación y Conservación
+  disponible: boolean("disponible").default(true),
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+}, (t) => [
+  uniqueIndex("company_labors_unique").on(t.companyId, t.laborId),
 ]);
 
 // ─────────────────────────────────────────────
@@ -240,6 +293,7 @@ export const projectItems = pgTable("project_items", {
   cantidad: numeric("cantidad", { precision: 15, scale: 4 }).default("0"),
   precioUnitario: numeric("precio_unitario", { precision: 20, scale: 6 }).default("0"),
   montoTotal: numeric("monto_total", { precision: 20, scale: 4 }).default("0"),
+  fechaInicioPartida: date("fecha_inicio_partida"),   // Cronograma: start date per item
   createdAt: timestamp("created_at").defaultNow(),
   updatedAt: timestamp("updated_at").defaultNow(),
 }, (t) => [
@@ -345,3 +399,58 @@ export const budgetDisminucionDetails = pgTable("budget_disminucion_details", {
   projectItemId: uuid("project_item_id").references(() => projectItems.id),
   cantidadDisminucion: numeric("cantidad_disminucion", { precision: 15, scale: 4 }).default("0"),
 });
+
+// ─────────────────────────────────────────────
+// PROJECT EXTRA ITEMS (OBRAS EXTRA / EXT)
+// ─────────────────────────────────────────────
+export const projectExtraItems = pgTable("project_extra_items", {
+  id: uuid("id").primaryKey().default(sql`gen_random_uuid()`),
+  projectId: uuid("project_id").notNull().references(() => projects.id, { onDelete: "cascade" }),
+  apuId: uuid("apu_id").references(() => apuAnalyses.id),
+  codigoPartida: varchar("codigo_partida", { length: 20 }).notNull(), // e.g. EXT-001
+  descripcion: text("descripcion").notNull(),
+  unidad: varchar("unidad", { length: 20 }),
+  cantidad: numeric("cantidad", { precision: 15, scale: 4 }).default("0"),
+  precioUnitario: numeric("precio_unitario", { precision: 20, scale: 6 }).default("0"),
+  montoTotal: numeric("monto_total", { precision: 20, scale: 4 }).default("0"),
+  motivo: text("motivo"),
+  fechaAprobacion: date("fecha_aprobacion"),
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+}, (t) => [
+  index("extra_items_project_idx").on(t.projectId),
+]);
+
+// ─────────────────────────────────────────────
+// MARKETPLACE: RFQ (Request for Quote)
+// ─────────────────────────────────────────────
+export const rfqRequests = pgTable("rfq_requests", {
+  id: uuid("id").primaryKey().default(sql`gen_random_uuid()`),
+  companyId: uuid("company_id").references(() => companies.id, { onDelete: "cascade" }), // requester
+  titulo: varchar("titulo", { length: 255 }).notNull(),
+  descripcion: text("descripcion"),
+  especialidad: varchar("especialidad", { length: 100 }),
+  estadoUbicacion: varchar("estado_ubicacion", { length: 50 }),
+  presupuestoEstimado: numeric("presupuesto_estimado", { precision: 20, scale: 2 }),
+  fechaLimite: date("fecha_limite"),
+  estatus: varchar("estatus", { length: 20 }).default("abierta"), // abierta | cerrada | adjudicada
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+}, (t) => [
+  index("rfq_company_idx").on(t.companyId),
+  index("rfq_estatus_idx").on(t.estatus),
+]);
+
+export const rfqBids = pgTable("rfq_bids", {
+  id: uuid("id").primaryKey().default(sql`gen_random_uuid()`),
+  rfqId: uuid("rfq_id").notNull().references(() => rfqRequests.id, { onDelete: "cascade" }),
+  biddingCompanyId: uuid("bidding_company_id").notNull().references(() => companies.id, { onDelete: "cascade" }),
+  montoPropuesto: numeric("monto_propuesto", { precision: 20, scale: 2 }),
+  plazosDias: integer("plazos_dias"),
+  notasTecnicas: text("notas_tecnicas"),
+  estatus: varchar("estatus", { length: 20 }).default("enviada"), // enviada | aceptada | rechazada
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+}, (t) => [
+  uniqueIndex("rfq_bids_unique").on(t.rfqId, t.biddingCompanyId),
+]);
