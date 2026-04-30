@@ -15,6 +15,27 @@
       "when": 1777386909497,
       "tag": "0001_uneven_maximus",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1777560174068,
+      "tag": "0002_solid_wolverine",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1777570650686,
+      "tag": "0003_yielding_jackal",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1777571042906,
+      "tag": "0004_lying_doomsday",
+      "breakpoints": true
     }
   ]
 }

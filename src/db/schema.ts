@@ -15,6 +15,13 @@ export const companies = pgTable("companies", {
   telefono: varchar("telefono", { length: 30 }),
   email: varchar("email", { length: 100 }),
   logo: text("logo"),
+  portada: text("portada"),
+  galeria: jsonb("galeria").default(sql`'[]'::jsonb`),
+  sitioWeb: text("sitio_web"),
+  instagram: varchar("instagram", { length: 100 }),
+  linkedin: text("linkedin"),
+  horarioAtencion: varchar("horario_atencion", { length: 255 }),
+  coberturaServicio: varchar("cobertura_servicio", { length: 255 }),
   configurada: boolean("configurada").default(false),
   // Marketplace visibility fields
   descripcionPublica: text("descripcion_publica"),
@@ -419,6 +426,30 @@ export const projectExtraItems = pgTable("project_extra_items", {
   updatedAt: timestamp("updated_at").defaultNow(),
 }, (t) => [
   index("extra_items_project_idx").on(t.projectId),
+]);
+
+// ─────────────────────────────────────────────
+// MARKETPLACE: LISTINGS (PRODUCTS / SERVICES)
+// ─────────────────────────────────────────────
+export const marketplaceListings = pgTable("marketplace_listings", {
+  id: uuid("id").primaryKey().default(sql`gen_random_uuid()`),
+  companyId: uuid("company_id").notNull().references(() => companies.id, { onDelete: "cascade" }),
+  titulo: varchar("titulo", { length: 255 }).notNull(),
+  categoria: varchar("categoria", { length: 120 }).notNull(),
+  tipo: varchar("tipo", { length: 20 }).notNull(), // product | service
+  descripcion: text("descripcion").notNull(),
+  precio: numeric("precio", { precision: 20, scale: 2 }).notNull(),
+  moneda: varchar("moneda", { length: 10 }).notNull().default("USD"),
+  stock: integer("stock"),
+  sku: varchar("sku", { length: 60 }),
+  imagenes: jsonb("imagenes").default(sql`'[]'::jsonb`),
+  estatus: varchar("estatus", { length: 20 }).notNull().default("published"),
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+}, (t) => [
+  index("marketplace_listings_company_idx").on(t.companyId),
+  index("marketplace_listings_status_idx").on(t.estatus),
+  index("marketplace_listings_type_idx").on(t.tipo),
 ]);
 
 // ─────────────────────────────────────────────

@@ -24,6 +24,8 @@ import { cierreRoutes } from "./routes/cierre.js";
 import { dashboardRoutes } from "./routes/dashboard.js";
 import { cronogramaRoutes } from "./routes/cronograma.js";
 import { marketplaceRoutes } from "./routes/marketplace.js";
+import { uploadsRoutes } from "./routes/uploads.js";
+import { join } from "node:path";
 
 config();
 
@@ -40,9 +42,25 @@ app.use("*", logger());
 // ── Health check ───────────────────────────────────────────────────────────
 app.get("/health", (c) => c.json({ status: "ok", version: "1.0.0" }));
 
+// ── Uploaded assets ────────────────────────────────────────────────────────
+app.get("/uploads/*", async (c) => {
+  const fileName = c.req.path.replace(/^\/uploads\//, "");
+  if (!fileName || fileName.includes("..")) {
+    return c.json({ error: "Invalid file path" }, 400);
+  }
+
+  const file = Bun.file(join(process.cwd(), "uploads", fileName));
+  if (!(await file.exists())) {
+    return c.json({ error: "File not found" }, 404);
+  }
+
+  return new Response(file);
+});
+
 // ── API Routes ─────────────────────────────────────────────────────────────
 const api = new Hono();
 api.route("/auth", authRoutes);
+api.route("/uploads", uploadsRoutes);
 api.route("/companies", companiesRoutes);
 api.route("/projects", projectsRoutes);
 api.route("/materials", materialsRoutes);
@@ -52,6 +70,7 @@ api.route("/items", itemsRoutes);
 api.route("/families", familiesRoutes);
 api.route("/budgets", budgetsRoutes);
 api.route("/apu", apuRoutes);
+api.route("/", marketplaceRoutes);
 api.route("/", aumentosDisminucionesRoutes);
 api.route("/", valuationsRoutes);
 api.route("/", measurementsRoutes);
@@ -62,7 +81,6 @@ api.route("/", extrasRoutes);
 api.route("/", cierreRoutes);
 api.route("/", dashboardRoutes);
 api.route("/", cronogramaRoutes);
-api.route("/", marketplaceRoutes);
 
 app.route("/api", api);
 

@@ -17,6 +17,13 @@ const loginSchema = z.object({
   password: z.string().min(6),
 });
 
+const registerSchema = z.object({
+  name: z.string().min(2),
+  email: z.string().email(),
+  password: z.string().min(8),
+  companyName: z.string().optional(),
+});
+
 const setupSchema = z.object({
   company: z.object({
     nombre: z.string().min(2),
@@ -51,6 +58,43 @@ authRoutes.post("/login", zValidator("json", loginSchema), async (c) => {
   );
 
   return c.json({ token, user: { id: user.id, nombre: user.nombre, email: user.email, rol: user.rol, companyId: user.companyId } });
+});
+
+// POST /api/auth/register
+authRoutes.post("/register", zValidator("json", registerSchema), async (c) => {
+  const { name, email, password, companyName } = c.req.valid("json");
+
+  const [existingUser] = await db.select().from(users).where(eq(users.email, email)).limit(1);
+  if (existingUser) {
+    return c.json({ error: "Email already registered" }, 409);
+  }
+
+  const passwordHash = await bcrypt.hash(password, 12);
+  let companyId: string | null = null;
+
+  if (companyName?.trim()) {
+    const [company] = await db.insert(companies).values({
+      nombre: companyName.trim(),
+      configurada: true,
+    }).returning();
+    companyId = company.id;
+  }
+
+  const [newUser] = await db.insert(users).values({
+    companyId,
+    nombre: name,
+    email,
+    passwordHash,
+    rol: "admin",
+  }).returning();
+
+  const token = jwt.sign(
+    { sub: newUser.id, email: newUser.email, rol: newUser.rol, companyId: newUser.companyId },
+    process.env.JWT_SECRET!,
+    { expiresIn: process.env.JWT_EXPIRES_IN || "7d" }
+  );
+
+  return c.json({ token, user: { id: newUser.id, nombre: newUser.nombre, email: newUser.email, rol: newUser.rol, companyId: newUser.companyId } }, 201);
 });
 
 // GET /api/auth/setup-status — checks if initial setup is needed

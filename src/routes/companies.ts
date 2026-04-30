@@ -20,7 +20,15 @@ companiesRoutes.get("/:id", async (c) => {
 
 companiesRoutes.put("/:id", async (c) => {
   const body = await c.req.json();
-  const [row] = await db.update(companies).set({ ...body, updatedAt: new Date() })
+  const allowed = [
+    "nombre", "rif", "direccion", "telefono", "email", "logo", "portada", "galeria",
+    "sitioWeb", "instagram", "linkedin", "horarioAtencion", "coberturaServicio",
+    "descripcionPublica", "especialidades", "estadoUbicacion", "anosFundacion",
+    "rncContratista", "isPublic", "rating", "totalProyectos"
+  ];
+  const safe = Object.fromEntries(Object.entries(body).filter(([key]) => allowed.includes(key)));
+
+  const [row] = await db.update(companies).set({ ...safe, updatedAt: new Date() })
     .where(eq(companies.id, c.req.param("id"))).returning();
   if (!row) return c.json({ error: "Not found" }, 404);
   return c.json(row);
