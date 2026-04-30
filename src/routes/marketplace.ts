@@ -170,6 +170,38 @@ marketplaceRoutes.get("/marketplace/offers", async (c) => {
   return c.json({ data: finalData, total: offers.length });
 });
 
+// NOTE: /my must be registered BEFORE /:id to avoid Hono matching "my" as a UUID param
+marketplaceRoutes.get("/marketplace/offers/my", async (c) => {
+  const auth = requireUser(c);
+  if (auth instanceof Response) return auth;
+  const user = auth;
+  if (!user.companyId) return c.json({ data: [] });
+
+  const rows = await db.select({
+    id: marketplaceListings.id,
+    titulo: marketplaceListings.titulo,
+    categoria: marketplaceListings.categoria,
+    tipo: marketplaceListings.tipo,
+    descripcion: marketplaceListings.descripcion,
+    precio: marketplaceListings.precio,
+    moneda: marketplaceListings.moneda,
+    stock: marketplaceListings.stock,
+    sku: marketplaceListings.sku,
+    imagenes: marketplaceListings.imagenes,
+    updatedAt: marketplaceListings.updatedAt,
+    companyId: companies.id,
+    companyNombre: companies.nombre,
+    companyEstado: companies.estadoUbicacion,
+    companyRating: companies.rating,
+  })
+    .from(marketplaceListings)
+    .innerJoin(companies, eq(marketplaceListings.companyId, companies.id))
+    .where(eq(marketplaceListings.companyId, user.companyId))
+    .orderBy(desc(marketplaceListings.updatedAt), desc(marketplaceListings.createdAt));
+
+  return c.json({ data: rows.map(buildMarketplaceOffer) });
+});
+
 marketplaceRoutes.get("/marketplace/offers/:id", async (c) => {
   const offer = await getMarketplaceOfferById(c.req.param("id"));
   if (!offer) return c.json({ error: "Offer not found" }, 404);
@@ -324,36 +356,7 @@ marketplaceRoutes.post("/marketplace/offers", async (c) => {
   return c.json(offer, 201);
 });
 
-marketplaceRoutes.get("/marketplace/offers/my", async (c) => {
-  const auth = requireUser(c);
-  if (auth instanceof Response) return auth;
-  const user = auth;
-  if (!user.companyId) return c.json({ data: [] });
-
-  const rows = await db.select({
-    id: marketplaceListings.id,
-    titulo: marketplaceListings.titulo,
-    categoria: marketplaceListings.categoria,
-    tipo: marketplaceListings.tipo,
-    descripcion: marketplaceListings.descripcion,
-    precio: marketplaceListings.precio,
-    moneda: marketplaceListings.moneda,
-    stock: marketplaceListings.stock,
-    sku: marketplaceListings.sku,
-    imagenes: marketplaceListings.imagenes,
-    updatedAt: marketplaceListings.updatedAt,
-    companyId: companies.id,
-    companyNombre: companies.nombre,
-    companyEstado: companies.estadoUbicacion,
-    companyRating: companies.rating,
-  })
-    .from(marketplaceListings)
-    .innerJoin(companies, eq(marketplaceListings.companyId, companies.id))
-    .where(eq(marketplaceListings.companyId, user.companyId))
-    .orderBy(desc(marketplaceListings.updatedAt), desc(marketplaceListings.createdAt));
-
-  return c.json({ data: rows.map(buildMarketplaceOffer) });
-});
+// (moved above /offers/:id — see note above)
 
 marketplaceRoutes.get("/marketplace/reviews/my", async (c) => {
   const auth = requireUser(c);
